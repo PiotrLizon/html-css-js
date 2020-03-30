@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM SELENIUM 1.0.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="row title">
+                <h3>formularz rejestracyjny</h3>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Imię</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" placeholder="Wpisz imię...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Nazwisko</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" placeholder="Wpisz nazwisko...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="number">Telefon</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="number" placeholder="Wpisz numer...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Kraj zamieszkania</label>
+                </div>
+                <div class="col-75">
+                    <select id="country">
+                        <option value="australia">Polska</option>
+                        <option value="canada">Niemcy</option>
+                        <option value="usa">Czechy</option>
+                        <option value="usa">Słowacja</option>
+                        <option value="usa">Ukraina</option>
+                        <option value="usa">Litwa</option>
+                        <option value="usa">Rosja</option>
+                        <option value="usa">Francja</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="sex">Płeć</label>
+                </div>
+                <div class="col-75">
+                    <select id="sex">
+                        <option value="male">Mężczyzna</option>
+                        <option value="female">Kobieta</option>
+                        <option value="other">Inna</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" placeholder="wpisz adres email...">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
